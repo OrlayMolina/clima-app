@@ -14,15 +14,20 @@ const ClimaProvider = ({children}) => {
     const datosBusqueda = e => {
         setBusqueda({
             ...busqueda,
-            [e.target.value]: e.target.value
-        });
+            [e.target.name]: e.target.value
+        })
+    }
+
+    const consultarClima = datos => {
+        console.log(datos);
     }
 
     return (
         <ClimaContext.Provider
             value={{
                 busqueda, 
-                datosBusqueda
+                datosBusqueda, 
+                consultarClima
             }}
         >
             {children}
@@ -37,5 +42,4 @@ ClimaProvider.propTypes = {
 export {
     ClimaProvider
 }
-
-export default ClimaContext;
+export default ClimaContext
