@@ -26,14 +26,3 @@ Proyecto en Vite, React y JavaScript utiliza la API de OpenWeatherMap para brind
 
 </a>
 
-
-<b>Proyecto terminado</b>
-
-<a href="https://orlay-andres-molina-proyecto13.netlify.app/" target="_blank">
-
-![react](https://github.com/OrlayMolina/clima-app/assets/111409267/d304fcc4-714e-48bb-952f-633674380a46)
-
-
-
-</a>
-
